@@ -1,5 +1,8 @@
 # InternHub-Find-jobs-Internship
 
+
+| <img src="https://raw.githubusercontent.com/shamsulhusainansari/InternHub-Find-jobs-Internship/main/1.png" width="200" height="350"/> | <img src="https://raw.githubusercontent.com/shamsulhusainansari/InternHub-Find-jobs-Internship/main/device-2020-10-06-213646.png" width="200" height="350"/> | <img src="https://raw.githubusercontent.com/shamsulhusainansari/InternHub-Find-jobs-Internship/main/3.png" width="200" height="350"/> |
+
 - The InternHub app is specially designed for Freshers and Job seekers to help them in searching for a job. which they are looking for. This Application helps you searching for all types of jobs and internships. This application is basically helpful for individuals to find Internships or jobs in their Dream company just by a few clicks on their Android Device.
 An ideal application for you to get correct professional guidance that will help you reach your career goals. Get ready for interviews with an understanding of the top organization interview process. A simple method to connect with experts from your aspired fields and find answers to your questions.
 
@@ -15,6 +18,5 @@ An ideal application for you to get correct professional guidance that will help
 
 - For any feedback, we'd love to hear from you at shamsulansari309@gmail.com.
 
-| <img src="https://raw.githubusercontent.com/shamsulhusainansari/InternHub-Find-jobs-Internship/main/1.png" width="200" height="350"/> | <img src="https://raw.githubusercontent.com/shamsulhusainansari/InternHub-Find-jobs-Internship/main/device-2020-10-06-213646.png" width="200" height="350"/> | <img src="https://raw.githubusercontent.com/shamsulhusainansari/InternHub-Find-jobs-Internship/main/3.png" width="200" height="350"/> |
  
  <a href='https://play.google.com/store/apps/details?id=com.knoxtech.internhub&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
