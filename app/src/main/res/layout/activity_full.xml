@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/topAppBar"
+            android:elevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:menu="@menu/menu_main"
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <ImageView
+        android:layout_below="@id/appbarlayout"
+        android:id="@+id/companyLogo"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/company_logo" />
+    <TextView
+        android:layout_below="@+id/companyLogo"
+        android:id="@+id/designationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/designation_name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/designationName"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/company_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/designationName" />
+        <TextView
+            android:id="@+id/comma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/comma"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/designationName" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_marginStart="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/location"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/designationName" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linearLayout"
+        android:id="@+id/full_salary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/salary"
+        android:textColor="#C1000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/full_salary">
+
+        <TextView
+            android:id="@+id/long_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lines="22"
+            android:layout_below="@id/full_salary"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <ImageView
+
+            android:id="@+id/bookmarkbutton"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/rounded_corner"
+            android:contentDescription="@string/bookmark"
+            app:srcCompat="@drawable/ic_baseline_link_24" />
+
+        <Button
+            android:id="@+id/applyNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/black"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@id/bookmarkbutton"
+            android:background="@drawable/rounded_corner_image"
+            android:text="@string/apply_now"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+</RelativeLayout>

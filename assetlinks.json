@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.knoxtech.internhub",
+    "sha256_cert_fingerprints":
+    ["64:3F:F5:A7:EF:C8:83:1E:C0:7E:B7:F0:BD:40:44:B1:9E:93:3B:A0:72:9B:08:5A:1D:CF:2E:A4:F6:0D:68:E0"]
+  }
+}]

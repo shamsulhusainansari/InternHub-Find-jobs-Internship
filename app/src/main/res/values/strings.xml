@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Intern Hub</string>
+    <string name="company_logo">company_logo</string>
+    <string name="company_name">Company Name</string>
+    <string name="designation_name">Designation Name</string>
+    <string name="salary">Salary</string>
+    <string name="date">Date</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="logo">companylogo</string>
+    <string name="apply_now">Apply Now</string>
+    <string name="bookmark">bookmark</string>
+    <string name="comma">, </string>
+    <string name="location">Location</string>
+    <string name="all_details">All Details</string>
+    <string name="sorted_by_rating">Sorted by Rating</string>
+    <string name="search">Search</string>
+    <string name="recent_internship">Recent Internship</string>
+    <string name="recent_jobs">Recent Jobs</string>
+    <string name="share">Share</string>
+    <string name="orderby">OrderBy</string>
+    <string name="internship">Internship</string>
+    <string name="jobs">Jobs</string>
+    <string name="sortby">SortBy</string>
+    <string name="sort">Sort</string>
+</resources>
