@@ -18,5 +18,11 @@ An ideal application for you to get correct professional guidance that will help
 
 - For any feedback, we'd love to hear from you at shamsulansari309@gmail.com.
 
+ Currently available on the Play store.
  
- <a href='https://play.google.com/store/apps/details?id=com.knoxtech.internhub&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+ <a href='https://play.google.com/store/apps/details?id=com.knoxtech.internhub&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' width="240" height="90"/></a>
+ 
+ # Contributing Bug reports
+ 
+ We use GitHub for bug tracking. Please search the existing issues for your bug and create a new one if the issue is not yet tracked!
+ https://github.com/shamsulhusainansari/InternHub-Find-jobs-Internship/issues
