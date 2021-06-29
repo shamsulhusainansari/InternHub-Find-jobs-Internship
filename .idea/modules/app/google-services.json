@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "726740156455",
+    "firebase_url": "https://intern-hub-efb29.firebaseio.com",
+    "project_id": "intern-hub-efb29",
+    "storage_bucket": "intern-hub-efb29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726740156455:android:e2767edc42e5fe95670e02",
+        "android_client_info": {
+          "package_name": "com.knoxtech.internhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726740156455-j7atd9hkd7geq63k0rcja08gn92tc4qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.knoxtech.internhub",
+            "certificate_hash": "41f49cc116ac74f3dc8cd6c65b6b86348ecbbe95"
+          }
+        },
+        {
+          "client_id": "726740156455-9efsd27td4m7s4sk0tf0vapsl1hrff5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUEpxvqfLtQfh47Hw8-WhV8fln_RIivbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726740156455-9efsd27td4m7s4sk0tf0vapsl1hrff5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
